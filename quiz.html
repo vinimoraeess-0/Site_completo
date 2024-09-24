@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="incons/favicon.ico" type="image/x-icon">
+    <title>Exclusiv Motors</title>
+</head>
+<body>
+    <header class="header-container">
+        <div class="logo-container">
+            <img src="Imagens/logomotors.png" alt="Logo Exclusiv Motors" class="logo">
+        </div>
+        <nav class="nav-links">
+            <a href="Produtos.html">Catálogo</a>
+            <a href="index.html">Sobre nós</a>
+            <a href="contato.html">Contato</a>
+            <a href="quiz.html">Quiz</a>
+        </nav>
+    </header>
+
+    <section class="quiz-section">
+        <h1>Quiz sobre Carros</h1>
+        
+        <form id="quiz-form">
+            <h4>Teste seu conhecimento sobre o mundo dos automóveis!</h4>
+
+            <section class="question">
+                <h3>Qual foi o primeiro carro fabricado em larga escala no mundo?</h3>
+                <label><input type="radio" name="q1" value="A" onclick="disableOptions('q1'), playsound()">A) Ford Model T</label><br>
+                <label><input type="radio" name="q1" value="B" onclick="disableOptions('q1'), playsound()">B) Chevrolet Corvette</label><br>
+                <label><input type="radio" name="q1" value="C" onclick="disableOptions('q1'), playsound()">C) Ferrari 250 GTO</label><br>
+                <label><input type="radio" name="q1" value="D" onclick="disableOptions('q1'), playsound()">D) Volkswagen Fusca</label>
+            </section>
+
+            <section class="question">
+                <h3>Qual marca é conhecida pelo slogan "The Ultimate Driving Machine"?</h3>
+                <label><input type="radio" name="q2" value="A" onclick="disableOptions('q2'), playsound()">A) Mercedes-Benz</label><br>
+                <label><input type="radio" name="q2" value="B" onclick="disableOptions('q2'), playsound()">B) BMW</label><br>
+                <label><input type="radio" name="q2" value="C" onclick="disableOptions('q2'), playsound()">C) Audi</label><br>
+                <label><input type="radio" name="q2" value="D" onclick="disableOptions('q2'), playsound()">D) Porsche</label>
+            </section>
+
+            <section class="question">
+                <h3>Qual foi o carro esportivo mais vendido da Ford?</h3>
+                <label><input type="radio" name="q3" value="A" onclick="disableOptions('q3'), playsound()">A) Ford Focus RS</label><br>
+                <label><input type="radio" name="q3" value="B" onclick="disableOptions('q3'), playsound()">B) Ford Mustang</label><br>
+                <label><input type="radio" name="q3" value="C" onclick="disableOptions('q3'), playsound()">C) Ford GT</label><br>
+                <label><input type="radio" name="q3" value="D" onclick="disableOptions('q3'), playsound()">D) Ford Bronco</label>
+            </section>
+
+            <section class="question">
+                <h3>Qual dessas marcas pertence ao grupo Volkswagen?</h3>
+                <label><input type="radio" name="q4" value="A" onclick="disableOptions('q4'), playsound()">A) Lamborghini</label><br>
+                <label><input type="radio" name="q4" value="B" onclick="disableOptions('q4'), playsound()">B) Ferrari</label><br>
+                <label><input type="radio" name="q4" value="C" onclick="disableOptions('q4'), playsound()">C) McLaren</label><br>
+                <label><input type="radio" name="q4" value="D" onclick="disableOptions('q4'), playsound()">D) Bugatti</label>
+            </section>
+
+            <section class="question">
+                <h3>Qual carro é conhecido por ter as famosas "portas asa de gaivota"?</h3>
+                <label><input type="radio" name="q5" value="A" onclick="disableOptions('q5'), playsound()">A) DeLorean DMC-12</label><br>
+                <label><input type="radio" name="q5" value="B" onclick="disableOptions('q5'), playsound()">B) Mercedes-Benz SLS AMG</label><br>
+                <label><input type="radio" name="q5" value="C" onclick="disableOptions('q5'), playsound()">C) Lamborghini Aventador</label><br>
+                <label><input type="radio" name="q5" value="D" onclick="disableOptions('q5'), playsound()">D) Porsche 911</label>
+            </section>
+
+            <section class="question">
+                <h3>Qual foi o carro mais vendido de todos os tempos?</h3>
+                <label><input type="radio" name="q6" value="A" onclick="disableOptions('q6'), playsound()">A) Toyota Corolla</label><br>
+                <label><input type="radio" name="q6" value="B" onclick="disableOptions('q6'), playsound()">B) Ford F-Series</label><br>
+                <label><input type="radio" name="q6" value="C" onclick="disableOptions('q6'), playsound()">C) Honda Civic</label><br>
+                <label><input type="radio" name="q6" value="D" onclick="disableOptions('q6'), playsound()">D) Volkswagen Golf</label>
+            </section>
+
+            <section class="question">
+                <h3>Qual carro ficou famoso no filme "Velozes e Furiosos" dirigido por Paul Walker?</h3>
+                <label><input type="radio" name="q7" value="A" onclick="disableOptions('q7'), playsound()">A) Nissan Skyline GT-R</label><br>
+                <label><input type="radio" name="q7" value="B" onclick="disableOptions('q7'), playsound()">B) Toyota Supra</label><br>
+                <label><input type="radio" name="q7" value="C" onclick="disableOptions('q7'), playsound()">C) Dodge Charger</label><br>
+                <label><input type="radio" name="q7" value="D" onclick="disableOptions('q7'), playsound()">D) Mitsubishi Eclipse</label>
+            </section>
+
+            <section class="question">
+                <h3>Qual é o país de origem da marca Ferrari?</h3>
+                <label><input type="radio" name="q8" value="A" onclick="disableOptions('q8'), playsound()">A) Alemanha</label><br>
+                <label><input type="radio" name="q8" value="B" onclick="disableOptions('q8'), playsound()">B) França</label><br>
+                <label><input type="radio" name="q8" value="C" onclick="disableOptions('q8'), playsound()">C) Itália</label><br>
+                <label><input type="radio" name="q8" value="D" onclick="disableOptions('q8'), playsound()">D) Reino Unido</label>
+            </section>
+
+            <section class="question">
+                <h3>Qual modelo da Porsche é considerado um dos carros esportivos mais icônicos da história?</h3>
+                <label><input type="radio" name="q9" value="A" onclick="disableOptions('q9'), playsound()">A) Porsche 911</label><br>
+                <label><input type="radio" name="q9" value="B" onclick="disableOptions('q9'), playsound()">B) Porsche Cayman</label><br>
+                <label><input type="radio" name="q9" value="C" onclick="disableOptions('q9'), playsound()">C) Porsche Boxster</label><br>
+                <label><input type="radio" name="q9" value="D" onclick="disableOptions('q9'), playsound()">D) Porsche Panamera</label>
+            </section>
+
+            <section class="question">
+                <h3>Em que década foi introduzido o icônico Ford Mustang?</h3>
+                <label><input type="radio" name="q10" value="A" onclick="disableOptions('q10'), playsound()">A) 1950</label><br>
+                <label><input type="radio" name="q10" value="B" onclick="disableOptions('q10'), playsound()">B) 1960</label><br>
+                <label><input type="radio" name="q10" value="C" onclick="disableOptions('q10'), playsound()">C) 1970</label><br>
+                <label><input type="radio" name="q10" value="D" onclick="disableOptions('q10'), playsound()">D) 1980</label>
+            </section>
+
+            <button type="button" onclick="SubmitQuiz()">Enviar resposta</button>
+            <button id="reset-btn" type="button" onclick="resetForm()">Responder novamente</button>
+        </form>
+        
+
+        <audio id="venceusom" src="som/venceu.mp3" preload="auto"></audio>
+        <audio id="perdeusom" src="som/perdeu.mp3" preload="auto"></audio>
+        <audio id="selecionasom" src="som/seleciona.mp3" preload="auto"></audio>
+
+
+        <section id="result"></section>
+    </section>
+
+    <main>
+        <p>A Exclusiv Motors é referência no mercado de automóveis customizados...</p>
+    </main>
+
+    <footer>
+        Site desenvolvido por <a href="https://www.instagram.com/vinimoraes_46/">Vinicius</a> para a empresa <a href="https://www.instagram.com/exclusivemotors_cwb/">Exclusiv Motors</a>.
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
